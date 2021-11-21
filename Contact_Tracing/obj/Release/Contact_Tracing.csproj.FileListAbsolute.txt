@@ -1,0 +1,10 @@
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\bin\Release\Contact_Tracing.exe.config
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\bin\Release\Contact_Tracing.exe
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\bin\Release\Contact_Tracing.pdb
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Release\Contact_Tracing.Form1.resources
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Release\Contact_Tracing.Properties.Resources.resources
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Release\Contact_Tracing.csproj.GenerateResource.cache
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Release\Contact_Tracing.csproj.CoreCompileInputs.cache
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Release\Contact_Tracing.exe
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Release\Contact_Tracing.pdb
+C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Release\Contact_Tracing.csproj.AssemblyReference.cache
