@@ -8,3 +8,13 @@ C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Debug\Contact_Tracing.cspr
 C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.CoreCompileInputs.cache
 C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Debug\Contact_Tracing.exe
 C:\Users\Jv Cataquiz\source\repos\Contact_Tracing\obj\Debug\Contact_Tracing.pdb
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\bin\Debug\Contact_Tracing.exe.config
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\bin\Debug\Contact_Tracing.exe
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\bin\Debug\Contact_Tracing.pdb
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.AssemblyReference.cache
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\obj\Debug\Contact_Tracing.Form1.resources
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\obj\Debug\Contact_Tracing.Properties.Resources.resources
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.GenerateResource.cache
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.CoreCompileInputs.cache
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\obj\Debug\Contact_Tracing.exe
+C:\Users\Jv Cataquiz\source\repos\Assignment4\Contact_Tracing\obj\Debug\Contact_Tracing.pdb
