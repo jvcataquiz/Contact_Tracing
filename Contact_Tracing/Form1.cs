@@ -32,7 +32,7 @@ namespace Contact_Tracing
             }
             else {
                 btnSubmit.Enabled = true;
-                textfile = textBoxLN.Text + " "  +  textBoxFN.Text + " " + textBoxMI.Text + " " + textBoxSUF.Text + ".txt";
+                textfile = textBoxLN.Text + " "  +  textBoxFN.Text + " " + textBoxMI.Text + ".txt";
             string path = @"C:\Users\Jv Cataquiz\output\" + textfile;
             outputFile = File.CreateText(path);
             outputFile.WriteLine(" " + labelName.Text + " " + textBoxLN.Text + ", " + textBoxFN.Text + " " + textBoxMI.Text + " " + textBoxSUF.Text);
@@ -45,110 +45,106 @@ namespace Contact_Tracing
             outputFile.WriteLine("\n " + labelHD.Text);
             outputFile.WriteLine("\t" + labelPlease.Text);
             outputFile.WriteLine("\n\t 1.Are you experiencing(Nakakaranas ka ba ng) :");
-            outputFile.WriteLine("\n\t  " + labeloneA.Text);
+            outputFile.Write("\n\t  " + labeloneA.Text);
             if (checkBox1ANo.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox1AYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t  " + labeloneB.Text);
+            outputFile.Write("\n\t  " + labeloneB.Text);
             if (checkBox1BNo.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox1AYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t  " + labeloneC.Text);
+            outputFile.Write("\n\t  " + labeloneC.Text);
             if (checkBox1CNo.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox1CYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t  " + labeloneD.Text);
+            outputFile.Write("\n\t  " + labeloneD.Text);
             if (checkBox1DNo.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox1DYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t  " + labeloneE.Text);
+            outputFile.Write("\n\t  " + labeloneE.Text);
             if (checkBox1ENo.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox1EYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t  " + labeloneF.Text);
+            outputFile.Write("\n\t  " + labeloneF.Text);
             if (checkBox1FNo.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox1FYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t  " + labeloneG.Text);
+            outputFile.Write("\n\t  " + labeloneG.Text);
             if (checkBox1GNo.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox1GYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
             outputFile.WriteLine("\n");
-            outputFile.WriteLine("\n\t 2. Have you worked together or stayed together in the same closed environment of a confirmed Covid-19 case? " +
-                "\n\t  (May nakasama ka ba nakatrabahong tao na kumpirmadong may Covid-19 o corona virus?)");
+            outputFile.Write("\n\t 2. Have you worked together or stayed together in the same closed environment of a confirmed Covid-19 case? (May nakasama ka ba nakatrabahong tao na kumpirmadong may Covid-19 o corona virus?)");
             if (checkBox2No.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox2Yes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t 3. Have you had any contact with anyone with fever, cough, colds, and sore throat the past 2 weeks? " +
-                "\n\t  (Mayroon ka bang nakasama na may lagnat, ubo, sipon, o sakit ng lalamunan sa nakalipas na 2 linggo?");
+            outputFile.Write("\n\t 3. Have you had any contact with anyone with fever, cough, colds, and sore throat the past 2 weeks? (Mayroon ka bang nakasama na may lagnat, ubo, sipon, o sakit ng lalamunan sa nakalipas na 2 linggo?");
             if (checkBox3No.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox3Yes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t 4. Have you travelled outside the Philippines in the last 14 days? " +
-                "\n\t  (Ikaw ba ay nagbiyahe sa labas ng Pilipinas sa nakalipas na 14 na araw?)");
+            outputFile.Write("\n\t 4. Have you travelled outside the Philippines in the last 14 days? (Ikaw ba ay nagbiyahe sa labas ng Pilipinas sa nakalipas na 14 na araw?)");
 
             if (checkBox4No.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n");
             }
             else if (checkBox4Yes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n");
             }
-            outputFile.WriteLine("\n\t 5. Have you travelled to any areas in NCR from your home? Specify where if your answer is Yes." +
-                "\n\t  (Ikaw ba ay nagpunta sa ibang parte ng NCR o Metro Manila bukod sa iyong bahay?) (Sabihin kung saan kung ang iyong sagot ay oo.)");
+            outputFile.Write("\n\t 5. Have you travelled to any areas in NCR from your home? Specify where if your answer is Yes. (Ikaw ba ay nagpunta sa ibang parte ng NCR o Metro Manila bukod sa iyong bahay?) (Sabihin kung saan kung ang iyong sagot ay oo.)");
             if (checkBox5No.Checked)
             {
-                outputFile.Write("\n\t\t[ ]Yes  [✓]No\n\n");
+                outputFile.Write("\t[ ]Yes  [✓]No\n\n");
             }
             else if (checkBoxfiveYes.Checked)
             {
-                outputFile.Write("\n\t\t[✓]Yes  [ ]No\n\n");
+                outputFile.Write("\t[✓]Yes  [ ]No\n\n");
             }
 
             if (checkBoxchecker.Checked)

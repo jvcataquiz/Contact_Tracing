@@ -811,7 +811,7 @@ namespace Contact_Tracing
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-23, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(-3, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(717, 373);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -886,7 +886,7 @@ namespace Contact_Tracing
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(745, 465);
+            this.ClientSize = new System.Drawing.Size(716, 465);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.labeltemp);
             this.Controls.Add(this.numericUpDowntemp);
